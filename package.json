@@ -6,7 +6,10 @@
   "author": "@asurraa",
   "homepage": "./",
   "keywords": [
-    "gatsby", "asurraa", "developments-blogs", "engineering"
+    "gatsby",
+    "asurraa",
+    "developments-blogs",
+    "engineering"
   ],
   "scripts": {
     "build": "gatsby build",
