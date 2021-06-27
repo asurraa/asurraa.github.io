@@ -19,6 +19,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "yarn develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -53,8 +54,12 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "gatsby-plugin-postcss": "^4.8.0",
     "gh-pages": "^3.2.3",
+    "postcss": "^8.3.5",
     "prettier": "2.2.1",
+    "tailwindcss": "^2.2.4",
     "typescript": "^4.3.4"
   }
 }
