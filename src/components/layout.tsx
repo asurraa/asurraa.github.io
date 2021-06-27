@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Nav } from "./nav"
 
 const Layout = ({ location, title, children }) => {
   // @ts-ignore
@@ -22,14 +23,17 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+    <div
+    //  className="global-wrapper" data-is-root-path={isRootPath}
+    >
+      {/* <header className="global-header">{header}</header> */}
+      <Nav />
       <main>{children}</main>
-      <footer>
+      {/* <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
