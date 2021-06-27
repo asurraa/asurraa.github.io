@@ -10,7 +10,7 @@ export interface ProjectCardProps {
 
 export const ProjectCard: FC<ProjectCardProps> = props => {
   return (
-    <div className="m-6 w-72 h-48 rounded-sm border-gray-400 border-2 p-5">
+    <div className="m-6 w-72 h-48 rounded-sm border-gray-400 border-4 p-5 hover:border-black">
       <div>
         <h2 className="font-bold">{props.owner}</h2>
       </div>

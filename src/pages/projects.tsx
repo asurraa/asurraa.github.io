@@ -20,31 +20,33 @@ const ProjectPage = ({ data, location }) => {
   }, [])
   return (
     <Layout location={location} title={siteTitle}>
-      {loading ? (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            minHeight: "90vh",
-          }}
-        >
-          <BarLoader />
-        </div>
-      ) : (
-        <div className="p-12 flex flex-wrap">
-          {repo?.map((data, index) => {
-            return (
-              <ProjectCard
-                key={index}
-                projectName={data.name}
-                projectDescription={data.description}
-                htmlUrl={data.html_url}
-              />
-            )
-          })}
-        </div>
-      )}
+      <div>
+        {loading ? (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              minHeight: "90vh",
+            }}
+          >
+            <BarLoader />
+          </div>
+        ) : (
+          <div className="p-12 flex flex-wrap justify-center ">
+            {repo?.map((data, index) => {
+              return (
+                <ProjectCard
+                  key={index}
+                  projectName={data.name}
+                  projectDescription={data.description}
+                  htmlUrl={data.html_url}
+                />
+              )
+            })}
+          </div>
+        )}
+      </div>
     </Layout>
   )
 }

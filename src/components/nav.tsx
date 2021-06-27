@@ -39,20 +39,22 @@ export function Nav() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
-                  {route.map((data, index) => {
-                    return (
-                      <a
-                        key={index}
-                        href="#"
-                        className={`hover:bg-gray-700 ${
-                          data.focus ? "text-white" : "text-gray-300 "
-                        } px-3 py-2 rounded-md text-sm font-medium`}
-                      >
-                        <Link to={data.route}>{data.name}</Link>
-                      </a>
-                    )
-                  })}
+                <div className="ml-10 mr-10 flex justify-between space-x-4">
+                  <div>
+                    {route.map((data, index) => {
+                      return (
+                        <a
+                          key={index}
+                          href="#"
+                          className={`hover:bg-gray-700 ${
+                            data.focus ? "text-white" : "text-gray-300 "
+                          } px-3 py-2 rounded-md text-sm font-medium`}
+                        >
+                          <Link to={data.route}>{data.name}</Link>
+                        </a>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
