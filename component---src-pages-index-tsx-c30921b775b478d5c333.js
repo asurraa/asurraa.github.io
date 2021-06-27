@@ -1,0 +1,2 @@
+(self.webpackChunkasurraa_github_io=self.webpackChunkasurraa_github_io||[]).push([[691],{6738:function(t,a,e){"use strict";e.r(a);var i=e(7294),l=e(814),n=e(8326);a.default=function(t){var a,e=t.data,r=t.location,u=(null===(a=e.site.siteMetadata)||void 0===a?void 0:a.title)||"Title";e.allMarkdownRemark.nodes;return i.createElement(l.Z,{location:r,title:u},i.createElement(n.h,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-c30921b775b478d5c333.js.map
