@@ -1,21 +1,13 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "asurraa.github.io",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Asurraa developement update, OSS, and engineering blogs.",
+  "version": "0.0.1",
+  "author": "@asurraa",
   "homepage": "./",
   "keywords": [
-    "gatsby"
+    "gatsby", "asurraa", "developments-blogs", "engineering"
   ],
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
